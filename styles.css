@@ -127,7 +127,7 @@ a {
 
 .quote-text {
     font-size: 36px;
-    font-weight: light;
+    font-weight: 300;
     font-style: italic;
     color: #1F2937;
 }
@@ -137,4 +137,49 @@ a {
     font-size: 18px;
     font-weight: bold;
     align-self: flex-end;
+}
+
+.call-to-action-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action {
+    background-color: #3882F6;
+    padding: 24px 48px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    gap: 32px;
+    margin: 64px;
+    flex-wrap: wrap;
+}
+
+.call-to-action-title {
+    font-size: 20px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.call-to-action-text {
+    color: #E5E7EB;
+}
+
+.call-to-action button {
+    padding: 4px 24px;
+    border: 1px solid #F9FAF8;
+    border-radius: 8px;
+    background-color: transparent;
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 16px;
+    align-self: center;
+}
+
+footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
+    padding: 32px;
 }
